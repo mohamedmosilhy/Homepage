@@ -1,56 +1,65 @@
-# Mohamed Mosilhy | Homepage Portfolio
+# Mohamed Mosilhy — Developer Portfolio
 
-Welcome to my personal homepage!  
-This project showcases my skills as a **Full-Stack Developer** and highlights some of my favorite projects.
+A responsive personal portfolio homepage presenting Mohamed Mosilhy's developer profile, selected projects, technical interests, and contact information. The site is intentionally lightweight and is implemented with semantic HTML and custom CSS.
 
-## 🚀 Features
+[View the live portfolio](https://mohamedmosilhy.github.io/Homepage/) · [View the source](https://github.com/mohamedmosilhy/Homepage)
 
-- **Modern Responsive Design**  
-  Built with HTML and CSS, fully responsive for desktop, tablet, and mobile.
+![Portfolio homepage](./assets/portfolio.png)
 
-- **Hero Section**  
-  Brief introduction and profile photo.
+## Project overview
 
-- **Projects Gallery**  
-  Interactive cards displaying my top GitHub projects.
+The page is divided into three focused areas:
 
-- **Contact Section**  
-  Easy ways to connect via email, LinkedIn, and GitHub.
+- A profile introduction describing full-stack, biomedical, AI, mobile, and desktop experience
+- A responsive project gallery linking to nine GitHub repositories
+- A contact section with location, phone, email, GitHub, and LinkedIn details
 
-## 🛠️ Tech Stack
+The current project cards link to source repositories for TEO, LDB Landing Page, Battleship, Weather App, Todo List, Restaurant Page, Library, Tic Tac Toe, and Admin Dashboard.
+
+## Features
+
+- Responsive desktop, tablet, and mobile layouts
+- Profile-led hero section
+- Multi-column project card grid
+- Direct GitHub and LinkedIn links
+- Contact details with recognizable iconography
+- Accessible alternative text for profile imagery
+- Lightweight static delivery with no runtime JavaScript
+
+## Built with
 
 - HTML5
-- CSS3 (with Flexbox & Grid)
-- [Font Awesome](https://fontawesome.com/) for icons
-- Google Fonts: Playfair Display & Roboto
+- CSS3
+- CSS Grid and Flexbox
+- Responsive media queries
+- Font Awesome
+- Google Fonts (Playfair Display and Roboto)
 
-## 📦 Folder Structure
+Google Fonts and Font Awesome are loaded from their respective CDNs, so an internet connection is required for the intended typography and icons.
 
-```
+## Project structure
+
+```text
 Homepage/
-│
-├── assets/                # Images and media
-├── index.html             # Main HTML file
-├── styles.css             # Main CSS file
-└── README.md              # Project documentation
+├── assets/
+│   ├── portfolio.png
+│   ├── portfolio tablet.png
+│   ├── portfolio mobile.png
+│   └── profile and contact icons
+├── index.html
+├── styles.css
+└── README.md
 ```
 
-## 📸 Demo
+## Run locally
 
-[Live Preview](https://mohamedmosilhy.github.io/Homepage/)
+```bash
+git clone https://github.com/mohamedmosilhy/Homepage.git
+cd Homepage
+```
 
-## ✨ How to Use
+Open `index.html` directly or serve the directory with a static web server. No installation or build command is required.
 
-1. **Clone or Download** this repository.
-2. Open `index.html` in your browser.
-3. Customize content, images, or styles as you wish!
+## Customization
 
-## 📬 Contact
-
-- **Email:** mmosilhyofficial@gmail.com
-- **LinkedIn:** [Mohamed Mosilhy](https://www.linkedin.com/in/mohamed-mosilhy)
-- **GitHub:** [mohamedmosilhy](https://github.com/mohamedmosilhy)
-
----
-
-> Crafted with ❤️ by Mohamed Mosilhy
+Portfolio content is maintained in `index.html`, while layout, colors, typography, and responsive behavior live in `styles.css`. Project cards are static markup, making it straightforward to replace links or add new work without introducing a framework.
